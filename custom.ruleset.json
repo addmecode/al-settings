@@ -1,0 +1,11 @@
+{
+    "name": "Addmecode rulest",
+    "description": "Custome ruleset from Addmecode",
+    "rules": [
+        {
+            "id": "AA0248",
+            "action": "Warning",
+            "justification": "Using this make code more clear"
+        }
+    ]
+}
