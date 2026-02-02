@@ -6,6 +6,21 @@
             "id": "AA0248",
             "action": "Warning",
             "justification": "Using 'this' makes code more clear"
+        },
+        {
+            "id": "AS0051",
+            "action": "Hidden",
+            "justification": "Skip appsource fields in app.json"
+        },
+        {
+            "id": "AS0052",
+            "action": "Hidden",
+            "justification": "Skip url in app.json"
+        },
+        {
+            "id": "AS0084",
+            "action": "Hidden",
+            "justification": "Skip ID range validation in app.json"
         }
     ]
 }
