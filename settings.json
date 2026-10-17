@@ -3,7 +3,12 @@
         "${CodeCop}",
         "${UICop}",
         "${AppSourceCop}",
-        "${analyzerFolder}BusinessCentral.LinterCop.dll"
+        "${analyzerFolder}ALCops.ApplicationCop.dll",
+        "${analyzerFolder}ALCops.DocumentationCop.dll",
+        "${analyzerFolder}ALCops.FormattingCop.dll",
+        "${analyzerFolder}ALCops.LinterCop.dll",
+        "${analyzerFolder}ALCops.PlatformCop.dll",
+        "${analyzerFolder}ALCops.Common.dll"
     ],
     "al.enableCodeAnalysis": true,
     "al.ruleSetPath": "https://raw.githubusercontent.com/addmecode/al-settings/refs/heads/main/custom.ruleset.json",
@@ -14,7 +19,6 @@
     "CRS.OnSaveAlFileAction": "Rename",
     "CRS.ObjectNamePrefix": "AMC ",
     "CRS.RemovePrefixFromFilename": false,
-    "todo-tree.regex.regexCaseSensitive": false,
     "alOutline.defaultDataClassification": "CustomerContent",
     "alOutline.defaultRemoveEmptyTriggersSettings": {
         "removeTriggers": true,
@@ -70,5 +74,9 @@
         "SortUsings",
         "SortVariables",
         "TrimTrailingWhitespace"
-    ]
+    ],
+    "al-test-runner.enableCodeCoverage": "Always",
+    "al-test-runner.testFolderName": "test",
+    "al-test-runner.codeCoveragePath": "../test/.altestrunner/codecoverage.json",
+    "al-test-runner.codeCoverageExcludeFiles": "test"
 }
